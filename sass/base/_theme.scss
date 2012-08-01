@@ -9,7 +9,7 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
 $main-bg: #f2f2f2 !default;
-$page-bg: #262C33 !default;
+$page-bg: #1E3C3E !default;
 $article-border: #eeeeee !default;
 $content-bg: #F8F8F8;
 
@@ -73,7 +73,7 @@ a {
 }
 
 html {
-  background: $page-bg image-url('line-tile.png') top left;
+  background: $page-bg;
 }
 body {
   #main{
@@ -102,7 +102,7 @@ body {
 }
 
 @media only screen and (min-width: 1040px) {
- 
+
   body > nav {
     -moz-border-radius: 0.4em;
     -webkit-border-radius: 0.4em;
